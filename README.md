@@ -20,7 +20,7 @@ image_to_text.py to one of `INVERSED_SPECTRUM FULL_SPECTRUM SMALL_SPECTRUM`
 
 Result:
 
-```python
+```
                        -----------------+                       
                    --------------------------                   
                  ------=-----------------------                 
