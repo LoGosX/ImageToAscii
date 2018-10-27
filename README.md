@@ -14,12 +14,13 @@ You only need to have '''pipenv''' installed.
 - type '''pipenv shell''' and press enter
 Now you are ready to run this script.
 ### Example of usage:
-'python image_to_txt.py python-logo.png <width> <height> (not neccessary)'
-You can customize results by changing 'SMALL_SPECTRUM' in 'result = image_to_ascii(image_file, width, height, SMALL_SPECTRUM)' 
-image_to_text.py to one of 'INVERSED_SPECTRUM FULL_SPECTRUM SMALL_SPECTRUM'
+`python image_to_txt.py python-logo.png <width> <height> (not neccessary)`
+You can customize results by changing `SMALL_SPECTRUM` in `result = image_to_ascii(image_file, width, height, SMALL_SPECTRUM)` 
+image_to_text.py to one of `INVERSED_SPECTRUM FULL_SPECTRUM SMALL_SPECTRUM`
 
 Result:
-'''python
+
+```python
                        -----------------+                       
                    --------------------------                   
                  ------=-----------------------                 
@@ -52,4 +53,4 @@ Result:
                  ******************************                 
                    **************************%                  
                        ******************%                      
-'''
+```
